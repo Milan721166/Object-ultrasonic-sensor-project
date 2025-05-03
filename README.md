@@ -1,40 +1,14 @@
 # Object-ultrasonic-sensor-project
 Pin Diagram:
-![image](https://github.com/user-attachments/assets/0f7ff4ad-c25f-4004-9bfd-37e5248d3047)
+![image](https://github.com/user-attachments/assets/f3bf87c7-a2a9-4dfc-bbbd-3ec22787f845)
 
-![image](https://github.com/user-attachments/assets/088f094d-d5d8-4803-8e1f-058d5e8c1330)
+![image](https://github.com/user-attachments/assets/34195ef4-2bbe-401b-b672-922530011633)
 
-Components Needed:
-Arduino Uno/Nano
 
-HC-SR04 Ultrasonic Sensor
-
-Servo Motor (SG90 or similar)
-
-Breadboard (optional)
-
-Jumper wires
-
-Connection Details:
-Servo Motor:
-
-Red wire → 5V
-
-Brown/Black wire → GND
-
-Orange/Yellow wire → Pin 7
-
-HC-SR04:
-
-VCC → 5V
-
-GND → GND
-
-TRIG → Pin 9
-
-ECHO → Pin 8
-
-Built-in LED:
-
-Already connected to Pin 13 on Arduino
-
+Component	Quantity	Specification	Notes
+Arduino Uno	1	R3 Compatible	Or any Arduino-compatible board
+HC-SR04 Ultrasonic Sensor	1	2cm-400cm range	For best results, use JSN-SR04T for outdoor/waterproof needs
+Servo Motor	1	SG90 (9g micro servo)	TowerPro SG90 works well for this project
+Speaker/Buzzer	1	8Ω 0.5W speaker OR Piezo buzzer	Passive buzzer recommended for tone control
+Breadboard	1	400/830 points	For prototyping
+Jumper Wires	10+	Male-to-Male	20cm length recommended
