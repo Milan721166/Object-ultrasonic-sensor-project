@@ -1,39 +1,9 @@
 # Object-ultrasonic-sensor-project
 Pin Diagram:
-ARDUINO UNO/NANO
------------------
-Pin 7  → Servo Signal (Orange/Yellow wire)
-Pin 8  → HC-SR04 Echo
-Pin 9  → HC-SR04 Trig
-Pin 13 → Built-in LED (L)
-5V     → Servo Power (Red wire) + HC-SR04 VCC
-GND    → Servo Ground (Brown wire) + HC-SR04 GND
-Circuit Diagram (Text Representation):
-+-------------------+       +-----------------+
-|   ARDUINO UNO     |       |    HC-SR04      |
-|                   |       |                 |
-| 5V---------------►|-------|VCC              |
-|                   |       |                 |
-| GND--------------►|-------|GND              |
-|                   |       |                 |
-| Pin 9------------►|-------|TRIG             |
-|                   |       |                 |
-| Pin 8◄------------|-------|ECHO             |
-|                   |       +-----------------+
-| Pin 7------------►|-----+ 
-|                   |     |
-| Pin 13 (LED)      |     | 
-+-------------------+     | 
-                          | 
-                    +-----v-----+
-                    |   SERVO   |
-                    |           |
-                    | Orange ◄-+ (Signal)
-                    |           |
-                    | Red---(+)  |
-                    |           |
-                    | Brown-(-) |
-                    +-----------+
+![image](https://github.com/user-attachments/assets/0f7ff4ad-c25f-4004-9bfd-37e5248d3047)
+
+![image](https://github.com/user-attachments/assets/088f094d-d5d8-4803-8e1f-058d5e8c1330)
+
 Components Needed:
 Arduino Uno/Nano
 
